@@ -16,6 +16,17 @@ for (let i = 1; i <= cantidadDeGatos; i++) {
 }}
 
 //---------------------------------------------------------
+console.warn('Ejercicio B')
 
+const cantidadDeGatosB = 5
+const cantidadDePasosB = 3
+const huella = "🐾".repeat(cantidadDePasosB)
 
+for (var i = 1; i <=
+ cantidadDeGatosB; i++) {
+ console.log("Gato #" + i + ": 🐈" +
+  huella);
+}
+
+//---------------------------------------------------------
 
