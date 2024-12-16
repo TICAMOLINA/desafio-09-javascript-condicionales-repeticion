@@ -1,40 +1,17 @@
 import './style.css'
-
-
+import ejercicioA from './helpers/script-A'
+import ejercicioB from './helpers/script-B'
+import ejercicioC from './helpers/script-C'
 
 console.warn('Ejercicio A')
-
-let cantidadDeGatos = 10
-
-for (let i = 1; i <= cantidadDeGatos; i++) {
-  if (i % 3 === 0) {
-   console.log("Gato #" + i + ": 😹");
-} else if (i % 3 === 1) {
-   console.log("Gato #" + i + ": 😺");
-} else {
-   console.log("Gato #" + i + ": 😸");
-}}
+ejercicioA()
 
 //---------------------------------------------------------
 console.warn('Ejercicio B')
-
-const cantidadDeGatosB = 5
-const cantidadDePasosB = 3
-const huella = "🐾".repeat(cantidadDePasosB)
-
-for (var i = 1; i <=
- cantidadDeGatosB; i++) {
- console.log(`Gato #${i}: 🐈${huella}`);
-}
+ejercicioB()
 
 //---------------------------------------------------------
 
 console.warn('Ejercicio C')
-const cantidadDeGatosC = 10
-const cantidadDePasosC = 4
-const huellas = "🐾".repeat(cantidadDePasosC)
-
-for (var i = 1; i <= cantidadDeGatosC; i++) {
- i % 2 === 0 ? console.log(`Gato #${i}: 🐈😸${huellas}`) : console.log(`Gato #${i}: 🐈${huellas}`)
- }
+ejercicioC()
 
